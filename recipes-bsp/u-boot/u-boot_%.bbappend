@@ -10,11 +10,12 @@ LIC_FILES_CHKSUM = "file://Licenses/README;md5=a2c678cfd4a4d97135585cad908541c6"
 
 inherit freeze-rev
 
-SRCREV = "bd2c27cc923711a23a21fc9ab43e05d8ac7fc142"
-SRCREV_rkbin = "ff92009a11fc85379941f109654546087487d530"
+SRCREV = "ce21dd646df2589ac8486f3ca79d5c6f0259c654"
+#SRCREV_rkbin = "0bb1c512492386a72a3a0b5a0e18e49c636577b9"
+SRCREV_rkbin = "18cd9b732e7c90cf1bb653a36d707ae629b3a791"
 SRC_URI = " \
-	git://github.com/JeffyCN/mirrors.git;branch=u-boot; \
-	git://github.com/JeffyCN/mirrors.git;branch=rkbin;name=rkbin;destsuffix=rkbin; \
+	git://github.com/friendlyarm/uboot-rockchip.git;branch=nanopi4-v2017.09; \
+	git://github.com/rockchip-linux/rkbin.git;branch=master;name=rkbin;destsuffix=rkbin; \
 "
 SRCREV_FORMAT = "default_rkbin"
 
